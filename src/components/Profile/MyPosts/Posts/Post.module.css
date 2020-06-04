@@ -1,0 +1,23 @@
+.post_item{
+    margin: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.postAva{
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.postLike{
+    margin-left: auto;
+}
+.postInfo{
+    width: 70%;
+    background-color: #e3e6ec;
+    padding: 15px;
+    margin: 15px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}

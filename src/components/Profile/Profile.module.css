@@ -1,0 +1,10 @@
+.context {
+  grid-area: context;
+  background-color: violet;
+}
+.contextPhoto {
+  width: 100%;
+  height: 500px;
+}
+
+

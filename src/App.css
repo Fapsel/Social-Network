@@ -4,51 +4,9 @@
   margin: 0 auto;
 
   grid-template-areas:
-    "h h"
-    "m context";
+    "header header"
+    "navigation context";
   grid-template-rows: 1fr;
-  grid-template-columns: 1fr 5fr;
-  grid-gap: 30px;
-}
-.header {
-  grid-area: h;
-  background-color: chartreuse;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-}
-.header img {
-  width: 70px;
-}
-.main {
-  grid-area: m;
-  background-color: darkorange;
-  font-size: xx-large;
-  text-align: center;
-  vertical-align: middle;
-}
-nav {
-  height: 100%;
-}
-.context {
-  grid-area: context;
-  background-color: violet;
-}
-.contextPhoto {
-  width: 100%;
-  height: 500px;
-}
-.avatar {
-  height: 150px;
-  grid-area: a;
-}
-p {
-  grid-area: p;
-}
-.fullContext {
-  display: grid;
-  grid-template-areas: "a p";
   grid-template-columns: 1fr 5fr;
   grid-gap: 30px;
 }

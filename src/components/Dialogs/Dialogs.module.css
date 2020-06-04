@@ -1,0 +1,14 @@
+.dialogs{
+    background-color: violet;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+.allDialogs{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    font-size: x-large;
+}
+.activeLink{
+    color: gold;
+}
